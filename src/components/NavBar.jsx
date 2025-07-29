@@ -1,5 +1,12 @@
+import reactIcon from '../assets/reactjs-icon.png'
+
 export default function NavBar() {
     return (
-        <h1>NavBar goes here</h1>
+        <header>
+            <nav>
+                <img src={reactIcon} alt="React logo" />
+                <span className="span-text">ReactFacts</span>
+            </nav>
+        </header>
     )
 }
